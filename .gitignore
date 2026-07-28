@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Checkpoints and model weights
+ckpt/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# TensorBoard logs
+runs/
+
+# Data files (large; not committed)
+*.pkl
+*.csv
+*.hdf5
+*.h5
+*.npy
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SLURM outputs
+*.out
+*.err
+
+# Secrets / configs with credentials
+.env
+*.secret
+
+# Temporary files
+tmp/
+temp/
+scratch/
