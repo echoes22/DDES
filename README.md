@@ -5,6 +5,8 @@ Official PyTorch implementation of the paper:
 > **Dimensional Distribution Emotion State: Leveraging Valence and Arousal as a Common Embedding Space for Visual Emotion Analysis**  
 > Émile Bergeron et al., arXiv 2605.26262, 2026
 
+[[Project Page]](https://lvsn.github.io/ddes/) &nbsp;|&nbsp; [[Paper]](https://arxiv.org/abs/2605.26262)
+
 The framework represents image emotion as a 2D probability heatmap over valence-arousal space (DDES) and provides bidirectional conversions between three complementary representations:
 - **DDES** — 28×28 heatmap over V-A space
 - **DES** — single (valence, arousal) point
